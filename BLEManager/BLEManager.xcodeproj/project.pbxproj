@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EAE11911995C25500B7CA2D /* UniversalBLEManager */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1EAE11921995C25500B7CA2D /* Build configuration list for PBXAggregateTarget "UniversalBLEManager" */;
+			buildPhases = (
+				1EAE11951995C27200B7CA2D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalBLEManager;
+			productName = UniversalBLEManager;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1EAE116C1995BDE000B7CA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAE116B1995BDE000B7CA2D /* Foundation.framework */; };
+		1EAE11711995BDE000B7CA2D /* BLEManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EAE11701995BDE000B7CA2D /* BLEManager.h */; };
+		1EAE11731995BDE000B7CA2D /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE11721995BDE000B7CA2D /* BLEManager.m */; };
+		1EAE117A1995BDE000B7CA2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAE11791995BDE000B7CA2D /* XCTest.framework */; };
+		1EAE117B1995BDE000B7CA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAE116B1995BDE000B7CA2D /* Foundation.framework */; };
+		1EAE117D1995BDE000B7CA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAE117C1995BDE000B7CA2D /* UIKit.framework */; };
+		1EAE11801995BDE000B7CA2D /* libBLEManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAE11681995BDE000B7CA2D /* libBLEManager.a */; };
+		1EAE11861995BDE000B7CA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE11841995BDE000B7CA2D /* InfoPlist.strings */; };
+		1EAE11881995BDE000B7CA2D /* BLEManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE11871995BDE000B7CA2D /* BLEManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EAE117E1995BDE000B7CA2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAE11601995BDE000B7CA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EAE11671995BDE000B7CA2D;
+			remoteInfo = BLEManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EAE11661995BDE000B7CA2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1EAE11711995BDE000B7CA2D /* BLEManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EAE11681995BDE000B7CA2D /* libBLEManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBLEManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAE116B1995BDE000B7CA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EAE116F1995BDE000B7CA2D /* BLEManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEManager-Prefix.pch"; sourceTree = "<group>"; };
+		1EAE11701995BDE000B7CA2D /* BLEManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+		1EAE11721995BDE000B7CA2D /* BLEManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEManager.m; sourceTree = "<group>"; };
+		1EAE11781995BDE000B7CA2D /* BLEManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAE11791995BDE000B7CA2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1EAE117C1995BDE000B7CA2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1EAE11831995BDE000B7CA2D /* BLEManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEManagerTests-Info.plist"; sourceTree = "<group>"; };
+		1EAE11851995BDE000B7CA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1EAE11871995BDE000B7CA2D /* BLEManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAE11651995BDE000B7CA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAE116C1995BDE000B7CA2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAE11751995BDE000B7CA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAE117A1995BDE000B7CA2D /* XCTest.framework in Frameworks */,
+				1EAE117D1995BDE000B7CA2D /* UIKit.framework in Frameworks */,
+				1EAE117B1995BDE000B7CA2D /* Foundation.framework in Frameworks */,
+				1EAE11801995BDE000B7CA2D /* libBLEManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EAE115F1995BDE000B7CA2D = {
+			isa = PBXGroup;
+			children = (
+				1EAE116D1995BDE000B7CA2D /* BLEManager */,
+				1EAE11811995BDE000B7CA2D /* BLEManagerTests */,
+				1EAE116A1995BDE000B7CA2D /* Frameworks */,
+				1EAE11691995BDE000B7CA2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAE11691995BDE000B7CA2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE11681995BDE000B7CA2D /* libBLEManager.a */,
+				1EAE11781995BDE000B7CA2D /* BLEManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAE116A1995BDE000B7CA2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE116B1995BDE000B7CA2D /* Foundation.framework */,
+				1EAE11791995BDE000B7CA2D /* XCTest.framework */,
+				1EAE117C1995BDE000B7CA2D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EAE116D1995BDE000B7CA2D /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE11701995BDE000B7CA2D /* BLEManager.h */,
+				1EAE11721995BDE000B7CA2D /* BLEManager.m */,
+				1EAE116E1995BDE000B7CA2D /* Supporting Files */,
+			);
+			path = BLEManager;
+			sourceTree = "<group>";
+		};
+		1EAE116E1995BDE000B7CA2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE116F1995BDE000B7CA2D /* BLEManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EAE11811995BDE000B7CA2D /* BLEManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE11871995BDE000B7CA2D /* BLEManagerTests.m */,
+				1EAE11821995BDE000B7CA2D /* Supporting Files */,
+			);
+			path = BLEManagerTests;
+			sourceTree = "<group>";
+		};
+		1EAE11821995BDE000B7CA2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE11831995BDE000B7CA2D /* BLEManagerTests-Info.plist */,
+				1EAE11841995BDE000B7CA2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EAE11671995BDE000B7CA2D /* BLEManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAE118B1995BDE000B7CA2D /* Build configuration list for PBXNativeTarget "BLEManager" */;
+			buildPhases = (
+				1EAE11641995BDE000B7CA2D /* Sources */,
+				1EAE11651995BDE000B7CA2D /* Frameworks */,
+				1EAE11661995BDE000B7CA2D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEManager;
+			productName = BLEManager;
+			productReference = 1EAE11681995BDE000B7CA2D /* libBLEManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1EAE11771995BDE000B7CA2D /* BLEManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAE118E1995BDE000B7CA2D /* Build configuration list for PBXNativeTarget "BLEManagerTests" */;
+			buildPhases = (
+				1EAE11741995BDE000B7CA2D /* Sources */,
+				1EAE11751995BDE000B7CA2D /* Frameworks */,
+				1EAE11761995BDE000B7CA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EAE117F1995BDE000B7CA2D /* PBXTargetDependency */,
+			);
+			name = BLEManagerTests;
+			productName = BLEManagerTests;
+			productReference = 1EAE11781995BDE000B7CA2D /* BLEManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAE11601995BDE000B7CA2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nectarLabs;
+			};
+			buildConfigurationList = 1EAE11631995BDE000B7CA2D /* Build configuration list for PBXProject "BLEManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EAE115F1995BDE000B7CA2D;
+			productRefGroup = 1EAE11691995BDE000B7CA2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EAE11671995BDE000B7CA2D /* BLEManager */,
+				1EAE11771995BDE000B7CA2D /* BLEManagerTests */,
+				1EAE11911995C25500B7CA2D /* UniversalBLEManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EAE11761995BDE000B7CA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAE11861995BDE000B7CA2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EAE11951995C27200B7CA2D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target BLEManager ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target BLEManager -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAE11641995BDE000B7CA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAE11731995BDE000B7CA2D /* BLEManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAE11741995BDE000B7CA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAE11881995BDE000B7CA2D /* BLEManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EAE117F1995BDE000B7CA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EAE11671995BDE000B7CA2D /* BLEManager */;
+			targetProxy = 1EAE117E1995BDE000B7CA2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EAE11841995BDE000B7CA2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAE11851995BDE000B7CA2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EAE11891995BDE000B7CA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EAE118A1995BDE000B7CA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EAE118C1995BDE000B7CA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BLEManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEManager/BLEManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1EAE118D1995BDE000B7CA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BLEManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEManager/BLEManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1EAE118F1995BDE000B7CA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEManager/BLEManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLEManagerTests/BLEManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1EAE11901995BDE000B7CA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEManager/BLEManager-Prefix.pch";
+				INFOPLIST_FILE = "BLEManagerTests/BLEManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		1EAE11931995C25500B7CA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EAE11941995C25500B7CA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAE11631995BDE000B7CA2D /* Build configuration list for PBXProject "BLEManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAE11891995BDE000B7CA2D /* Debug */,
+				1EAE118A1995BDE000B7CA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAE118B1995BDE000B7CA2D /* Build configuration list for PBXNativeTarget "BLEManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAE118C1995BDE000B7CA2D /* Debug */,
+				1EAE118D1995BDE000B7CA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EAE118E1995BDE000B7CA2D /* Build configuration list for PBXNativeTarget "BLEManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAE118F1995BDE000B7CA2D /* Debug */,
+				1EAE11901995BDE000B7CA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EAE11921995C25500B7CA2D /* Build configuration list for PBXAggregateTarget "UniversalBLEManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAE11931995C25500B7CA2D /* Debug */,
+				1EAE11941995C25500B7CA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EAE11601995BDE000B7CA2D /* Project object */;
+}

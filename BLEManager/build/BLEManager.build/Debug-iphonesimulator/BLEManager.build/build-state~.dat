@@ -1,0 +1,127 @@
+TBLEManager
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.pch BLEManager/BLEManager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.o /Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a normal i386
+cPBXCp BLEManager/BLEManager.h /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c000000005347B0300000000000000198
+t1397207088
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531FB4D000000000000003B4
+t1394586832
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531FB4D7000000000000019E
+t1394586839
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531FB4DB000000000088D8C0
+t1394586843
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531FB4F90000000000000ADC
+t1394586873
+s2780
+
+N/Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager-Prefix.pch
+c0000000053E5866000000000000000B6
+t1407551072
+s182
+
+N/Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.h
+c0000000053E588A300000000000008A0
+t1407551651
+s2208
+
+N/Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m
+c0000000053E588F20000000000002825
+t1407551730
+s10277
+
+N/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.LinkFileList
+c0000000053E58C090000000000000088
+t1407552521
+s136
+
+N/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.o
+t1407552522
+s63208
+
+N/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h
+t2
+s0
+
+N/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a
+t2
+s0
+
+N/var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.pch
+t1407552522
+s114240
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6dae5a89c395b941^66836489c395b941^---0#1#1#--18"Check dependencies36"3059E239-1520-4C8B-849F-C4ECC9E85342-
+
+CCompileC build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.o /Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429245322.269761
+e429245322.423688
+r1
+xCompileC
+xbuild/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.o
+x/Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m
+d/Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m195"CompileC build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.o BLEManager/BLEManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb950458ac395b941^8e766c8ac395b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m0000000000000000^4385"CompileC build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.o BLEManager/BLEManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/patrickbelon/Documents/BLEManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-generated-files.hmap -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-own-target-headers.hmap -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-all-target-headers.hmap -iquote /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-project-headers.hmap -I/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/DerivedSources/i386 -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/DerivedSources -F/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator -include /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch -MMD -MT dependencies -MF /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.d --serialize-diagnostics /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.dia -c /Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.m -o /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.o36"5F627B47-886E-49A9-97FA-CD61DD290676-
+b7DD90C37-C9D8-4E97-92B2-195D55EBE9F2
+
+CLibtool /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a normal i386
+s429245322.424394
+e429245322.432032
+r1
+xLibtool
+x/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection168"Libtool /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a normal i386168"Libtool /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a normal i3867de66c8ac395b941^079b6e8ac395b941^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1860"Libtool /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a normal i386    cd /Users/patrickbelon/Documents/BLEManager    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator -filelist /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/Objects-normal/i386/BLEManager.LinkFileList -ObjC -framework Foundation -o /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/libBLEManager.a36"5B25F9C4-1C6B-421D-BC6A-A65D30224F32-
+b7DD90C37-C9D8-4E97-92B2-195D55EBE9F2
+
+CPBXCp BLEManager/BLEManager.h /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h
+s429245322.432809
+e429245322.435236
+r1
+xPBXCp
+xBLEManager/BLEManager.h
+x/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Copy /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h194"PBXCp BLEManager/BLEManager.h /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h24276f8ac395b941^376c6f8ac395b941^---0#0#1#-19%DVTDocumentLocation2@171"file:///Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h0034707adeffdf42^1450"PBXCp BLEManager/BLEManager.h /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager/BLEManager.h    cd /Users/patrickbelon/Documents/BLEManager    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager.h /Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include/BLEManager36"DD21DBAD-281D-4798-ADC1-6F960C2957DF-
+b7DD90C37-C9D8-4E97-92B2-195D55EBE9F2
+
+CProcessPCH /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.pch BLEManager/BLEManager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429245321.396013
+e429245322.268960
+r1
+xProcessPCH
+x/var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.pch
+xBLEManager/BLEManager-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile BLEManager/BLEManager-Prefix.pch321"ProcessPCH /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.pch BLEManager/BLEManager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler08af6589c395b941^7fda448ac395b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager-Prefix.pch0000000000000000^4530"ProcessPCH /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.pch BLEManager/BLEManager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/patrickbelon/Documents/BLEManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-generated-files.hmap -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-own-target-headers.hmap -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-all-target-headers.hmap -iquote /Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/BLEManager-project-headers.hmap -I/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/DerivedSources/i386 -I/Users/patrickbelon/Documents/BLEManager/build/BLEManager.build/Debug-iphonesimulator/BLEManager.build/DerivedSources -F/Users/patrickbelon/Library/Developer/Xcode/DerivedData/BLEManager-dagazsikskaruidkplvbretgjgcs/Build/Products/Debug-iphonesimulator --serialize-diagnostics /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.d -c /Users/patrickbelon/Documents/BLEManager/BLEManager/BLEManager-Prefix.pch -o /var/folders/gd/36l3fk_978s1k_42pgnkh_1h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BLEManager-Prefix-aegigrewjetdngbfslntdavyuvvn/BLEManager-Prefix.pch.pch36"C657F7F8-66AA-46AC-B41E-43E7282DE0B8-
+b7DD90C37-C9D8-4E97-92B2-195D55EBE9F2
+
