@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1E652B3419AEFB5C00E8A454 /* NLBluetoothDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E652B3319AEFB5C00E8A454 /* NLBluetoothDevice.m */; };
 		1EAE116C1995BDE000B7CA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAE116B1995BDE000B7CA2D /* Foundation.framework */; };
 		1EAE11711995BDE000B7CA2D /* BLEManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EAE11701995BDE000B7CA2D /* BLEManager.h */; };
 		1EAE11731995BDE000B7CA2D /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE11721995BDE000B7CA2D /* BLEManager.m */; };
@@ -56,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E652B3219AEFB5C00E8A454 /* NLBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLBluetoothDevice.h; sourceTree = "<group>"; };
+		1E652B3319AEFB5C00E8A454 /* NLBluetoothDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBluetoothDevice.m; sourceTree = "<group>"; };
 		1EAE11681995BDE000B7CA2D /* libBLEManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBLEManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAE116B1995BDE000B7CA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EAE116F1995BDE000B7CA2D /* BLEManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEManager-Prefix.pch"; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 		1EAE116D1995BDE000B7CA2D /* BLEManager */ = {
 			isa = PBXGroup;
 			children = (
+				1E652B3219AEFB5C00E8A454 /* NLBluetoothDevice.h */,
+				1E652B3319AEFB5C00E8A454 /* NLBluetoothDevice.m */,
 				1EAE11701995BDE000B7CA2D /* BLEManager.h */,
 				1EAE11721995BDE000B7CA2D /* BLEManager.m */,
 				1EAE116E1995BDE000B7CA2D /* Supporting Files */,
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E652B3419AEFB5C00E8A454 /* NLBluetoothDevice.m in Sources */,
 				1EAE11731995BDE000B7CA2D /* BLEManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +456,7 @@
 				1EAE118D1995BDE000B7CA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EAE118E1995BDE000B7CA2D /* Build configuration list for PBXNativeTarget "BLEManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				1EAE11901995BDE000B7CA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EAE11921995C25500B7CA2D /* Build configuration list for PBXAggregateTarget "UniversalBLEManager" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +474,7 @@
 				1EAE11941995C25500B7CA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

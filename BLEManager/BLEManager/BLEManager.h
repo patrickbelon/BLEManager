@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
+#import "NLBluetoothDevice.h"
 
 #define DEFAULT_TIMEOUT_INTERVAL 10;
 
@@ -34,10 +35,12 @@ typedef enum{
 
 - (void) discoveryDidRefresh;
 - (void) discoveryStatePoweredOff;
+- (void) discoveryStatePoweredOn;
 //TODO May add later? 
 //- (void) discoveryDidUpdateState:(CBPeripheralState) state;
 - (void) searchTimeout;
 - (void)discoveredPeripheralsWithMatchingServiceUUIDs:(NSDictionary*)peripherals;
+- (void) discoveredBluetoothDevice:(NLBluetoothDevice*)device; 
 - (void) bluetoothNotSupported;
 @end
 

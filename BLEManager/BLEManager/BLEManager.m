@@ -18,6 +18,7 @@
     @property (weak) NSArray    *interestedServices;
     @property   NSMutableArray  *foundDevices;
     @property   NSMutableDictionary *UUIDAndAdvertisementData;
+    @property NSTimer           *discoveryTimeout;
 @end
 
 
@@ -85,11 +86,21 @@
     
     if (![self.discoveredPeripherals containsObject:peripheral]) {
         NSLog(@"Found periph: %@",peripheral.name);
-		[self.discoveredPeripherals addObject:peripheral];
+		//[self.  addObject:peripheral];
         [self.UUIDAndAdvertisementData setObject:advertisementData forKey:peripheral.identifier];
+        [self.UUIDAndAdvertisementData setObject:RSSI forKey:@"RSSI"];
         
         [self.discoveryDelegate discoveryDidRefresh];
-        [self.discoveryDelegate discoveredPeripheralsWithMatchingServiceUUIDs:self.UUIDAndAdvertisementData];
+        //[self.discoveryDelegate discoveredPeripheralsWithMatchingServiceUUIDs:self.UUIDAndAdvertisementData];
+        
+        NLBluetoothDevice *device = [[NLBluetoothDevice alloc]init];
+        device.deviceAddress = peripheral.identifier;
+        device.deviceName = peripheral.name;
+        device.rssi = RSSI;
+        device.isConnectable = (Boolean)[advertisementData objectForKey:CBAdvertisementDataIsConnectable];
+        device.manufacturerData = [advertisementData objectForKey:CBAdvertisementDataManufacturerDataKey];
+        
+        [self.discoveryDelegate discoveredBluetoothDevice:device];
 	}
     
 }
@@ -108,6 +119,8 @@
 //    
 //}
 
+
+//Change these to the discovery delegate 
 -(void)centralManagerDidUpdateState:(CBCentralManager *)central{
     switch(central.state){
         case CBCentralManagerStateUnknown:
@@ -245,14 +258,27 @@
         NSDictionary *options = [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:NO] forKey:CBCentralManagerScanOptionAllowDuplicatesKey];
         [self.centralManager scanForPeripheralsWithServices:serviceUUIDs options:options];
         self.interestedServices = serviceUUIDs;
+        
+        NSTimeInterval timeoutSeconds = DEFAULT_TIMEOUT_INTERVAL;
+        [self.discoveryTimeout invalidate];
+        self.discoveryTimeout = [NSTimer scheduledTimerWithTimeInterval:timeoutSeconds target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:NO];
+                                 
     }
     else {
         //TODO report error
     }
 }
+                                 
+-(void)timerFireMethod:(NSTimer*)timer{
+    NSLog(@"Discovery timed out");
+    [self.centralManager stopScan];
+}
 
 #pragma mark Connection
 -(void)connectToPeripheral:(NSUUID*)peripheralUUID{
+    
+    [self.centralManager stopScan];
+    [self.discoveryTimeout invalidate];
     
     if(self.driverState == NLBluetoothDriverPoweredOn){
         [self.centralManager stopScan];
